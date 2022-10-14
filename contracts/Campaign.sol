@@ -8,6 +8,7 @@ contract Campaign {
         bool complete;
     }
 
+    Request[] public requests;
     address public manager;
     uint minimumContribution;
     address[] public approvers;
