@@ -1,5 +1,9 @@
 pragma solidity 0.4.17;
 
+contract CampaignFactory {
+    
+}
+
 contract Campaign {
     struct Request {
         string description;
