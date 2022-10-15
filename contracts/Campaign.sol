@@ -40,7 +40,11 @@ contract Campaign {
         });
         requests.push(newRequest);
     }
-}
+
+    function approveRequest(uint index) public {
+        
+    }
+}   
 
 
 
